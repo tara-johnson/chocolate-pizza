@@ -1,3 +1,39 @@
+/* -------------------- */
+/* HEADER STYLES */
+/* -------------------- */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+header p {
+    font-family: 'Yellowtail', cursive;
+    font-size: 35px;
+}
+
+#slogan {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 10px;
+    /* margin-top: 2px; */
+}
+
+nav {
+    width: 960px;
+    margin: 0px auto;
+    /* border: 3px solid orange; */
+}
+
+nav img {
+    float: left;
+    margin-right: 8px;
+}
+
+nav ul li img {
+    display: inline-block;
+    float: right;
+    margin: 21px 0px 0px 2px;
+}
+
+#rss {
+    margin-left: 10px;
 }
