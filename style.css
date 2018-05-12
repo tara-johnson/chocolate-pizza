@@ -113,6 +113,7 @@ li li {
 
 footer {
     margin-top: 20px;
+    margin-bottom: 100px;
 }
 
 footer img {
@@ -137,5 +138,25 @@ button {
     height: 40px;
     width: 150px;
     color: #fff;
-    background-color: orange;
+    background-color: sienna;
+    font-size: 12px;
+    transition: 400ms;
+}
+
+button:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+hr {
+    margin-top: 100px;
+    width: 45%;
+}
+
+footer p:last-of-type {
+    text-align: center;
+}
+
+footer div {
+    clear: both;
 }
